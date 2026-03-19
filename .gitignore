@@ -1,0 +1,57 @@
+# ==========================================
+# STM32 + CubeMX + Keil MDK 纯净版忽略规则
+# ==========================================
+
+# --- Keil MDK 编译输出与中间文件 ---
+*.obj
+*.lst
+*.lnp
+*.sct
+*.dep
+*.htm
+*.build_log.htm
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+*.d
+*.crf
+*.o
+*.bak
+*.ie
+*.ipcf
+*.scratch
+*.vcd
+*.plist
+*.pbi
+*.pbd
+*.browse
+*.pbi
+
+# --- Keil 本地界面布局文件 (每个人电脑路径不同，必删) ---
+*.uvgui.*
+*.uvguix.*
+*.uvopts
+*.uvoptx
+
+# --- 目录类忽略 ---
+Listings/
+Objects/
+DebugConfig/
+build/
+bin/
+obj/
+
+# --- CubeMX 备份与临时文件 ---
+.mxproject
+# 注意：务必保留 *.ioc 文件，那是你的工程灵魂
+
+# --- 操作系统及通用编辑器 ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
